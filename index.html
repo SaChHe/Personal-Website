@@ -1,13 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+    <title>Becario SamyChong</title>
+</head>
+<body>
+    
+    <header>
+        <h1 class = "titulo">Samuel Chong Hernandez <span class = "titulopequenio">Becario</span></h1>
+    </header>
+
+    <div class ="nav_bg">    
+     <nav class="navegacion_principal">
+        
+        <a class="navegacion_principal" href="index.html">Inicio</a>
+        <a class="navegacion_principal" href="sobreMi.html">Sobre mi</a>
+        <a class="navegacion_principal" href="contactar.html">Redes</a>
+        <a class="navegacion_principal" href="#">Proyectos</a>
+
+     </nav>
+</div>
+    
+    <section class="banner">
+        <div class="contenido_banner">
+        <h2>Diseño y desarrollo web</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-location" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009988" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M21 3l-6.5 18a0.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a0.55 .55 0 0 1 0 -1l18 -6.5" />
+        </svg>
+        <p>UNAM, FACULTAD DE INGENIERIA</p>
+        <a class="boton" href="contactar.html">Contactar</a>
+    </div>
+    </section>
+<main class="contenedor sombra">
+    <h2>Mis servicios</h2>
+    <div class="servicios">
+
+
+       <section class ="servicio">
+             <h3>Diseño web</h3>
+             <div class="icono">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-laptop" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009988" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="3" y1="19" x2="21" y2="19" />
+                    <rect x="5" y="6" width="14" height="10" rx="1" />
+                  </svg>
+                </div>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos consequuntur iusto dolor sunt sint reprehenderit!</p>
+            
+        </section>
+        <section class="servicio">
+    
+            <h3>Web apps</h3>
+            <div class="icono">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-apps" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009988" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="4" y="4" width="6" height="6" rx="1" />
+                    <rect x="4" y="14" width="6" height="6" rx="1" />
+                    <rect x="14" y="14" width="6" height="6" rx="1" />
+                    <line x1="14" y1="7" x2="20" y2="7" />
+                    <line x1="17" y1="4" x2="17" y2="10" />
+                  </svg>
+                </div>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos consequuntur iusto dolor sunt sint reprehenderit!</p>
+
+            
+        </section>
+        <section class="servicio">
+            <h3>E-commerce</h3>
+            <div class="icono">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cash" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009988" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="9" width="14" height="10" rx="2" />
+                    <circle cx="14" cy="14" r="2" />
+                    <path d="M17 9v-2a2 2 0 0 0 -2 -2h-10a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h2" />
+                  </svg>
+                </div>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos consequuntur iusto dolor sunt sint reprehenderit!</p>
+            
+        
+        </section>
+
+     
+    </div>
+</main>
+
+    <section>
+        <!--Contacto-->
+        <h2>Contacto</h2>
+        <form class="formulario">
+            <fieldset>
+                <legend>Contactame llenando con tus datos perro</legend>
+                <div class="contenedor_campos">
+                    <div class ="campo">
+                 <label>Nombre:</label>
+                 <input type = "text" placeholder="Nombre">
+                    </div>
+                    <div class ="campo">
+                        <label>Telefono:</label>
+                    
+                         <input type = "tel" placeholder="Telefono">
+                    </div>
+                    <div class ="campo">
+                      <label>Correo:</label>
+                 
+                         <input type = "email" placeholder="Email">
+                     </div>
+                    <div class ="campo">
+                         <label>Mensaje:</label>
+                         <textarea class="input_text" placeholder="Mensaje"></textarea>
+                     </div>
+                <div>
+                 <input class="boton" type ="submit" value = "Enviar">
+                </div>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    
+    
+
+</body>
 </html>
